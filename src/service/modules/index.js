@@ -1,3 +1,3 @@
-import { AuthorizedService } from "../../../../../../projects/junaid/real_estate/src/services/index";
+import { AuthorizedService } from "../index";
 
 export const PluginService = url => AuthorizedService(url);
